@@ -14,6 +14,12 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
+mongoose.connect("mongodb://localhost/workout", {
+    useNewUrlPaser: true,
+    useFindandModify: false,
+    useUnifiedTopology: true,
+});
+
 app.use(controllers);
 
 app.listen(PORT, () => {
