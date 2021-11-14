@@ -9,3 +9,13 @@ const app = express();
 
 app.use(logger("dev"));
 
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+app.use(express.static("public"));
+
+app.use(controllers);
+
+app.listen(PORT, () => {
+    console.log('App running on port {PORT}');
+});
