@@ -21,7 +21,7 @@ router.delete("/api/workouts", ({ body }, res) => {
         res.status(400).json(err);
       });
   });
-//router get /api/workouts
+//router get /api/workouts  Reference to get them to connect https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ and https://docs.mongodb.com/manual/reference/operator/aggregation/sum/
   router.get("/api/workouts", (req, res) => {
     Workout.aggregate([
       {
@@ -43,7 +43,7 @@ router.delete("/api/workouts", ({ body }, res) => {
         res.status(400).json(err);
       });
   });
-  // get /api/workouts/range
+  // get /api/workouts/range Referenced https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ and https://docs.mongodb.com/manual/reference/operator/aggregation/sum/
   router.get("/api/workouts/range", (req, res) => {
     Workout.aggregate([
       {
