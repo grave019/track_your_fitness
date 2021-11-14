@@ -65,7 +65,7 @@ router.delete("/api/workouts", ({ body }, res) => {
         res.status(400).json(err);
       });
   });
-
+// documentation on using mongoDB https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/ Documentation on push aggregation https://docs.mongodb.com/manual/reference/operator/aggregation/push/
   router.put("/api/workouts/:id", (req, res) => {
     Workout.findByIdAndUpdate(
       req.params.id,
