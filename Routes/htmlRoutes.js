@@ -1,3 +1,4 @@
+//require path and express allows router.get to connect to exercise.html and stats.html in public folder
 const path = require("path");
 const router = require("express").Router();
 
