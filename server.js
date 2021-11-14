@@ -19,7 +19,7 @@ mongoose.connect("mongodb://localhost/workout", {
     useUnifiedTopology: true,
     useCreateIndex: true,
 });
-
+// routes is being used instead of controllers
 app.use(require("./routes/apiRoutes.js"));
 app.use(require("./routes/htmlRoutes.js"));
 
