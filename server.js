@@ -1,7 +1,6 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
-const controllers = require("./controllers");
 
 const PORT = process.env.PORT   ||  3000;
 
@@ -20,8 +19,6 @@ mongoose.connect("mongodb://localhost/workout", {
     useUnifiedTopology: true,
     useCreateIndex: true,
 });
-
-app.use(controllers);
 
 app.use(require("./routes/apiRoutes.js"));
 app.use(require("./routes/htmlRoutes.js"));
