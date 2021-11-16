@@ -23,8 +23,8 @@ mongoose.connect(
         useCreateIndex: true,
 });
 // routes is being used instead of controllers
-app.use(require("./routes1/apiRoutes.js"));
-app.use(require("./routes1/htmlRoutes.js"));
+app.use(require("./routes/apiRoutes.js"));
+app.use(require("./routes/htmlRoutes.js"));
 
 app.listen(PORT, () => {
     console.log('App running on port {PORT}');
