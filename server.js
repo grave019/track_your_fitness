@@ -13,11 +13,14 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/workout", {
-    useNewUrlParser: true,
-    useFindandModify: false,
-    useUnifiedTopology: true,
-    useCreateIndex: true,
+//connecting heroku and atlas
+mongoose.connect(
+    process.env.MONGODB_URI ||  "mongodb://localhost/workout", 
+    {
+        useNewUrlParser: true,
+        useFindandModify: false,
+        useUnifiedTopology: true,
+        useCreateIndex: true,
 });
 // routes is being used instead of controllers
 app.use(require("./routes/apiRoutes.js"));
