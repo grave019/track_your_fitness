@@ -6,9 +6,7 @@
 
   Front End Fitness tracker connected to a Mongo Database with a Mongoose Schema.
   
-  Click the link below to visit my deployed page.
-
-  <!-- [URL](undefined) -->
+ [Fitness Tracker Deployed Application](https://thawing-lowlands-12191.herokuapp.com/stats)
 
   ## Table of Contents
   
@@ -26,15 +24,25 @@
   
   ## Goals
 
-  Allow the user to add exercises to the most recent database. Add a new exercis to new workout plan. view the combined weight of mutliple exercises from the past seven workouts on the stats page. view the total duration of each workout from the past seven workouts on the stats page.
+* Allow the user to add exercises to the most recent database. 
+  
+* Add a new exercise to new workout plan 
+  
+* View the combined weight of mutliple exercises from the past seven workouts on the stats page. 
+  
+*  View the total duration of each workout from the past seven workouts on the stats page.
 
   ## Usage
 
-  Fitness Tracker
+  Fitness Tracker For Cardio and weight training exercises.
 
   ## Installation
   
-  npm i  
+  Installation: npm i
+
+  Seeding: node seeders/seed.js
+
+  Connect to Server: node server.js
 
   ## Test
 
@@ -72,6 +80,6 @@
   
   GitHub Username: grave019 
  
-  Link to Github account[grave019](https://github.com/grave019)
+  Link to Github account [grave019](https://github.com/grave019)
 
   Email: brent.r.graves82@gmail.com
