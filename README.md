@@ -54,7 +54,28 @@
 
   ## Visualization
 
-  placeholder to add images or other media
+Seeding To local DB in terminal
+
+ ![Seeding](public/assets/images/Screen%20Shot%202021-11-14%20at%204.11.49%20PM.png)
+
+node server.js
+
+ ![node server.js](public/assets/images/Screen%20Shot%202021-11-14%20at%204.12.12%20PM.png)
+
+Connection to Database 
+ ![insertion to db](public/assets/images/Screen%20Shot%202021-11-14%20at%205.06.06%20PM.png)
+
+Fitness Tracker Last Workout
+
+ ![Fitness Tracker](public/assets/images/Screen%20Shot%202021-11-16%20at%207.16.54%20PM.png)
+
+Fitness Tracker Add a Exercise
+
+![Add A Exercise](public/assets/images/Screen%20Shot%202021-11-16%20at%207.19.03%20PM.png)
+
+Workout Dashboard
+
+![Workout Dashboard](public/assets/images/Screen%20Shot%202021-11-16%20at%207.19.34%20PM.png)
 
   ## Acknowledgements
 
